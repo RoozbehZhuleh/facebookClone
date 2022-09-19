@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./app.js" defer></script>
+</head>
+<body class="bg-black" >
+    <header class="bg-zinc-800 w-screen py-2 px-4 lg:justify-center lg:border-b-2 lg:border-gray-300">
+
+        <nav class="flex flex-row justify-between items-center w-full">
+            <div class="logo w-1/4">
+                    <i class="fa-brands fa-facebook text-blue-600 rounded-full relative text-4xl before:w-[70%] before:h-[70%] before:rounded-full before:top-4 before:left-4 before:bg-white"></i>
+            </div>
+            <div class="nav hidden lg:flex lg:flex-row lg:justify-between lg:w-1/4 lg:text-gray-400 lg:text-2xl">
+                <div class="nav__item">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="nav__item">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="nav__item">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="nav__item">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="nav__item">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+            </div>
+            <div class="flex flex-row justify-start items-center mr-5">
+
+                <div class="mr-2 flex flex-row justify-start items-center py-1 px-4 bg-gray-400 rounded-full ml-5">
+                    <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                    <input class="bg-gray-400 rounded-full text-md" type="text" name="search" id="search">
+                </div>
+                <button class="bg-blue-500 px-6 py-1 rounded-full text-white text-xl hidden lg:block">create</button>
+            </div>
+            <div class="notifs hidden lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-5 lg:text-2xl text-gray-400">
+                <div>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook-messenger relative after:bg-green-500 after:w-1 after:h-1 after:rounded-full after:absolute after:left-full"></i>
+                </div>
+                <div class="rounded-full">
+                    <i class="fa-solid fa-caret-down text-gray-800 text-xl mb-1 text-cente bg-gray-400 rounded-full px-2 py-1"></i>
+                </div>
+            </div>
+            <div class="burger flex flex-row lg:hidden">
+                <i class="fa-solid fa-bars text-white text-4xl"></i>
+            </div>
+        </nav>
+        
+    </header>
+</body>
+</html>
